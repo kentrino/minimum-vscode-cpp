@@ -6,14 +6,15 @@
     "options": {
         "cwd": "${workspaceRoot}/build"
     },
+    "suppressTaskName": true,
     "tasks": [
         {
             "taskName": "cmake",
-            "args": ["-G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug .."]     
+            "args": ["cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug .."]
         },
         {
             "taskName": "make",
-            "args": ["-j 8"],
+            "args": ["make -j 8"],
             "isBuildCommand": true            
         }
     ]
