@@ -3,6 +3,8 @@
 ext install cpptools
 ext install cmake
 ext install webfreak.debug
+ext install xaver.clang-format
+brew install clang-format
 ```
 
 # Referencess
