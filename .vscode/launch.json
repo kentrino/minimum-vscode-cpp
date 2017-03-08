@@ -5,7 +5,7 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "./build/hello",
+            "program": "${workspaceRoot}/build/hello",
             "cwd": "${workspaceRoot}",
             "osx": {
                 "MIMode": "lldb"
