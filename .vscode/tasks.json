@@ -6,6 +6,7 @@
     "options": {
         "cwd": "${workspaceRoot}/build"
     },
+    "_runner": "terminal",
     "suppressTaskName": true,
     "tasks": [
         {
@@ -16,6 +17,10 @@
             "taskName": "make",
             "args": ["make -j 8"],
             "isBuildCommand": true            
+        },
+        {
+            "taskName": "test",
+            "args": ["ctest --output-on-failure"]
         }
     ]
 }

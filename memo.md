@@ -13,3 +13,6 @@ http://qiita.com/keita1987/items/f01cf9f307fedfca00c6
 
 ### C++ Development using Visual Studio Code, CMake and LLDB
 https://medium.com/audelabs/c-development-using-visual-studio-code-cmake-and-lldb-d0f13d38c563#.m3w123dvp
+
+# CMake: CTest
+http://qiita.com/mrk_21/items/25ee7f00cebb9934b472
